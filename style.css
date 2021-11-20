@@ -1,0 +1,30 @@
+.main-box{
+    border: 3px solid red;
+}
+.item-box{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.item{
+    width: 50px;
+    height: 50px;
+    background-color: springgreen;
+}
+#item1, #item3{
+    height: 30px;
+}
+/*#item1{
+ order: 2;   
+}
+#item2{
+order: 1;
+}
+#item3{
+order: 3;
+}
+/*
